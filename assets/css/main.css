@@ -3360,7 +3360,7 @@ input, select, textarea {
 		/* Homepage banner */
 
 			#banner {
-			    background-image: url("gel image.jpg");
+			    background-image: url("../../images/gel image.jpg");
 			    background-size: cover;
 			    background-position: center;
 			    background-repeat: no-repeat;
@@ -3374,4 +3374,17 @@ input, select, textarea {
 			#banner header {
 			    position: relative;
 			    z-index: 1;
+
 			}
+
+		/* Custom homepage banner */
+
+#banner {
+    background: url("../../gel image.jpg") center center / cover no-repeat !important;
+    min-height: 500px;
+}
+
+#banner header {
+    position: relative;
+    z-index: 1;
+}
