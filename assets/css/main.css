@@ -3357,4 +3357,22 @@ input, select, textarea {
 				text-align: left;
 			}
 
-	}
+		/* Homepage banner */
+
+			#banner {
+			    background-image: url("../../gel image.jpg");
+			    background-size: cover;
+			    background-position: center;
+			    background-repeat: no-repeat;
+			    min-height: 500px;
+			    display: flex;
+			    align-items: center;
+			    justify-content: center;
+			    text-align: center;
+			}
+			
+			#banner header {
+			    position: relative;
+			    z-index: 1;
+			}
+}
